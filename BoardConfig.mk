@@ -9,6 +9,9 @@ include device/oneplus/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/oneplus/instantnoodle
 
+# Assert
+TARGET_OTA_ASSERT_DEVICE := instantnoodle|OnePlus8|oneplus8
+
 # Display
 TARGET_SCREEN_DENSITY := 450
 
