@@ -17,6 +17,7 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # BkackIron
 WITH_GMS := true
+WITH_GMS_VARIANT := pico
 TARGET_HAS_UDFPS := true
 TARGET_BOOT_ANIMATION_RES := 1080
 BLACKIRON_BUILDTYPE := Official
